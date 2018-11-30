@@ -1,83 +1,104 @@
-*{ margin: 0;
-padding: 0;
+@font-face {
+	font-family: Universidad;
+	src: url("./assets/fonts/UNIVERSIDAD PERSONAL USE.ttf");
 }
-.content{
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
 	color: #fff;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
-.principal{
+
+.principal {
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	position: absolute;
 	letter-spacing: 1px;
 	text-align: center;
-}	
+}
+
 .principal h1 {
 	color: #fff;
 	font-family: Universidad, "Comic Sans MS", cursive, sans-serif;
 	font-size: 100px;
 }
-.principal p{
+
+.principal p {
 	font-size: 23px;
 	letter-spacing: 1.5px;
 	font-weight: bold;
 }
+
 .main-nav {
 	float: right;
 	list-style: none;
 	margin: 30px;
 }
+
 .main-nav li {
 	display: inline-block;
 }
+
 .main-nav li a {
-	color : white;
+	color: white;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-size: 17px;
 }
+
 .main-nav li a:hover {
 	border: 1px solid white;
 }
 
-html { 
-    background: url(https://lh3.googleusercontent.com/-9JhbdtKjMkY/W74vndEGqgI/AAAAAAAAAN8/SFck8jRBij0V3ISVF39hLPUfNUc73u_JQCL0BGAYYCw/h1365/43590270_302420703911098_8879127959949017088_n.jpg) no-repeat center center fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+	background: url(https://lh3.googleusercontent.com/-9JhbdtKjMkY/W74vndEGqgI/AAAAAAAAAN8/SFck8jRBij0V3ISVF39hLPUfNUc73u_JQCL0BGAYYCw/h1365/43590270_302420703911098_8879127959949017088_n.jpg) no-repeat center center fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 .social-icons {
-  top: 50px;
-  float: right;
-  margin-left: 1800px;
-  }  
+	top: 50px;
+	float: right;
+	margin-left: 1800px;
+}
+
 .social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  }
+	display: inline-block;
+	list-style-type: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
 .social-icons li a {
-  border-bottom: none;
-  }
+	border-bottom: none;
+}
+
 .social-icons li img {
-  width: 35px;
-  height: 35px;
-  margin-right: 20px;
+	width: 35px;
+	height: 35px;
+	margin-right: 20px;
 }
+
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white
 }
+
 a:visited {
 	color: #fff;
 }
+
 a:link {
 	text-decoration: none;
 }
