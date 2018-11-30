@@ -57,8 +57,8 @@
 	border: 1px solid white;
 }
 
-html {
-	background: url(https://lh3.googleusercontent.com/-9JhbdtKjMkY/W74vndEGqgI/AAAAAAAAAN8/SFck8jRBij0V3ISVF39hLPUfNUc73u_JQCL0BGAYYCw/h1365/43590270_302420703911098_8879127959949017088_n.jpg) no-repeat center center fixed;
+body {
+	background: url("./assets/images/stadium.jpg") no-repeat center center fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
